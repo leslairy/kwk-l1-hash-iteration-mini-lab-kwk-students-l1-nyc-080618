@@ -26,7 +26,7 @@ puts create_olympics_hash
 
 add_a_key_value_pair
 create_olympics_hash.each do |country_name,year|
-  puts "country:#{"
+  puts "country:#{}"
 
 def iterate_through_hash
   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
