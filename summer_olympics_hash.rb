@@ -7,8 +7,12 @@ def create_olympics_hash
 end
 
 def add_a_key_value_pair
-  puts create_olympics_hash["Atlanta"] = 1996
+  
 end
+
+create_olympics_hash["Atlanta"] = 1996
+
+puts create_olympics_hash
 
 add_a_key_value_pair
 
