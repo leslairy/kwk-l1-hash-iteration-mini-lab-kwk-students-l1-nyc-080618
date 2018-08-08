@@ -20,13 +20,13 @@ def add_a_key_value_pair
   
 end
 
-create_olympics_hash["Atlanta"] = 1996
+# create_olympics_hash["Atlanta"] = 1996
 
-puts create_olympics_hash
+# puts create_olympics_hash
 
-add_a_key_value_pair
-create_olympics_hash.each do |country_name,year|
-  puts "country:#{}"
+# add_a_key_value_pair
+# create_olympics_hash.each do |country_name,year|
+#   puts "country:#{}"
 
 def iterate_through_hash
   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
