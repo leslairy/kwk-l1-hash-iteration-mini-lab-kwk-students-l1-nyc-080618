@@ -7,7 +7,7 @@ create_olympics_hash = {
 puts create_olympics_hash
 
 def create_olympics_hash
-  create_olympics_hash = {
+  hash = {
   :Sydney => "2000",
   :Athens => "2004",
   :Beijing => "2008", 
@@ -17,7 +17,12 @@ def create_olympics_hash
 create_olympics_hash
 
 def add_a_key_value_pair
-puts create_olympics_hash[:Atlanta] = "1996"
+  hash = {
+  :Sydney => "2000",
+  :Athens => "2004",
+  :Beijing => "2008", 
+  :London => "2012" }
+puts hash[:Atlanta] = "1996"
 end
 
 add_a_key_value_pair
