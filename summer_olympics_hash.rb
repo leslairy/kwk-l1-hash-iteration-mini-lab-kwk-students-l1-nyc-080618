@@ -17,12 +17,12 @@ def create_olympics_hash
 create_olympics_hash
 
 def add_a_key_value_pair
-  
+puts create_olympics_hash["Atlanta"] = 1996
 end
 
-# create_olympics_hash["Atlanta"] = 1996
+add_a_key_value_pair
 
-# puts create_olympics_hash
+
 
 # add_a_key_value_pair
 # create_olympics_hash.each do |country_name,year|
