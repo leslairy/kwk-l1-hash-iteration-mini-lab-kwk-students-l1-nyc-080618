@@ -1,6 +1,4 @@
 
-puts create_olympics_hash
-
 def create_olympics_hash
   hash = {
   :Sydney => "2000",
