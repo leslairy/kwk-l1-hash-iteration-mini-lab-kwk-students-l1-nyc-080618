@@ -2,7 +2,9 @@ create_olympics_hash = {"Sydney" => 2000, "Athens" => 2004, "Beijing" => 2008, "
 puts create_olympics_hash
 
 def create_olympics_hash
-  
+  hash = {
+    :Sydney => "2000",
+  }
   # Implement this method so that it returns a hash with the data provided on README.md
 end
 
@@ -15,6 +17,8 @@ create_olympics_hash["Atlanta"] = 1996
 puts create_olympics_hash
 
 add_a_key_value_pair
+create_olympics_hash.each do |country_name,year|
+  puts "country:#{"
 
 def iterate_through_hash
   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
