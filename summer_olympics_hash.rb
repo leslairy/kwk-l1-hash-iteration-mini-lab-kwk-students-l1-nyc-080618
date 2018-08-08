@@ -1,4 +1,4 @@
-puts hash = {
+hash = {
   :Sydney => "2000",
   :Athens => "2004",
   :Beijing => "2008", 
@@ -6,8 +6,9 @@ puts hash = {
 
 
 hash = {:Sydney => "2000", :Athens => "2004", :Beijing => "2008", :London => "2012" }
-puts hash[:Atlanta] = "1996"
+hash[:Atlanta] = "1996"
 
+puts hash
 
 
 
