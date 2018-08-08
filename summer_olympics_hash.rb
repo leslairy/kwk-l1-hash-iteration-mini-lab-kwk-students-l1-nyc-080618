@@ -22,7 +22,7 @@ def add_a_key_value_pair
   :Athens => "2004",
   :Beijing => "2008", 
   :London => "2012" }
-puts hash[:Atlanta] = "1996"
+puts hash[":Atlanta"] = "1996"
 end
 
 add_a_key_value_pair
