@@ -1,20 +1,11 @@
-
-def create_olympics_hash
-  hash = {
+hash = {
   :Sydney => "2000",
   :Athens => "2004",
   :Beijing => "2008", 
   :London => "2012" }
- end
-
-create_olympics_hash
 
 
-  hash = {
-  :Sydney => "2000",
-  :Athens => "2004",
-  :Beijing => "2008", 
-  :London => "2012" }
+hash = {:Sydney => "2000", :Athens => "2004", :Beijing => "2008", :London => "2012" }
 puts hash[:Atlanta] = "1996"
 
 
